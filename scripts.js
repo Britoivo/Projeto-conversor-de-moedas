@@ -88,6 +88,10 @@ function convert() {
     }
     
     if (seletorConverter.value == "dolar" && seletorConvertido.value == "real") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "USD"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
@@ -95,6 +99,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "dolar" && seletorConvertido.value == "euro") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "USD"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("pt-PT", {
             style: "currency",
             currency: "EUR"
@@ -102,6 +110,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "dolar" && seletorConvertido.value == "libra") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "USD"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "GBP"
@@ -109,6 +121,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "dolar" && seletorConvertido.value == "bitcoin") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "USD"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC"
@@ -124,6 +140,10 @@ function convert() {
     }
     
     if (seletorConverter.value == "euro" && seletorConvertido.value == "real") {
+        valorConversao.innerHTML = new Intl.NumberFormat("pt-pt", {
+            style: "currency",
+            currency: "EUR"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
@@ -131,6 +151,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "euro" && seletorConvertido.value == "dolar") {
+        valorConversao.innerHTML = new Intl.NumberFormat("pt-pt", {
+            style: "currency",
+            currency: "EUR"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -138,6 +162,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "euro" && seletorConvertido.value == "libra") {
+        valorConversao.innerHTML = new Intl.NumberFormat("pt-pt", {
+            style: "currency",
+            currency: "EUR"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "GBP"
@@ -145,6 +173,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "euro" && seletorConvertido.value == "bitcoin") {
+        valorConversao.innerHTML = new Intl.NumberFormat("pt-pt", {
+            style: "currency",
+            currency: "EUR"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC"
@@ -160,6 +192,10 @@ function convert() {
     }
     
     if (seletorConverter.value == "libra" && seletorConvertido.value == "real") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-EN", {
+            style: "currency",
+            currency: "GBP"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
@@ -167,6 +203,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "libra" && seletorConvertido.value == "dolar") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-EN", {
+            style: "currency",
+            currency: "GBP"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -174,6 +214,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "libra" && seletorConvertido.value == "euro") {
+       valorConversao.innerHTML = new Intl.NumberFormat("en-EN", {
+            style: "currency",
+            currency: "GBP"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("pt-PT", {
             style: "currency",
             currency: "EUR"
@@ -181,6 +225,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "libra" && seletorConvertido.value == "bitcoin") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-EN", {
+            style: "currency",
+            currency: "GBP"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC"
@@ -196,6 +244,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "bitcoin" && seletorConvertido.value == "real") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "BTC"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
@@ -203,6 +255,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "bitcoin" && seletorConvertido.value == "dolar") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "BTC"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -210,6 +266,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "bitcoin" && seletorConvertido.value == "euro") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "BTC"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("pt-PT", {
             style: "currency",
             currency: "EUR"
@@ -217,6 +277,10 @@ function convert() {
     }
 
     if (seletorConverter.value == "bitcoin" && seletorConvertido.value == "libra") {
+        valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "BTC"
+        }).format(inputValorConversao)
         valorConvertido.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "GBP"
