@@ -385,8 +385,8 @@ function converterInfos() {
 
 }
 
-seletorConverter.addEventListener("change", converterInfos)
-seletorConvertido.addEventListener("change", converterInfos)
+convertButton.addEventListener("click", converterInfos)
+
 
 
 
