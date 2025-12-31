@@ -360,8 +360,8 @@ function converterInfos() {
 
 }
 
-convertButton.addEventListener("click", converterInfos)
-
+seletorConverter.addEventListener("change", converterInfos)
+seletorConvertido.addEventListener("change", converterInfos)
 
 
 
