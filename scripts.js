@@ -45,7 +45,6 @@ function convert() {
 
     /*real*/
     if (seletorConvertido.value == "real") {
-        document.querySelector(".input-currency").placeholder = "R$1,00"
         valorConvertido.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
@@ -53,7 +52,6 @@ function convert() {
     }
 
     if (seletorConvertido.value == "dolar") {
-        document.querySelector(".input-currency").placeholder = "R$1,00"
         valorConvertido.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -61,7 +59,6 @@ function convert() {
     }
 
     if (seletorConvertido.value == "euro") {
-        document.querySelector(".input-currency").placeholder = "R$1,00"
         valorConvertido.innerHTML = new Intl.NumberFormat("pt-PT", {
             style: "currency",
             currency: "EUR"
@@ -69,7 +66,6 @@ function convert() {
     }
 
     if (seletorConvertido.value == "libra") {
-        document.querySelector(".input-currency").placeholder = "R$1,00"
         valorConvertido.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "GBP"
@@ -77,7 +73,6 @@ function convert() {
     }
 
     if (seletorConvertido.value == "bitcoin") {
-        document.querySelector(".input-currency").placeholder = "R$1,00"
         valorConvertido.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "BTC"
@@ -86,7 +81,6 @@ function convert() {
 
     /*dolar*/
     if (seletorConverter.value == "dolar" && seletorConvertido.value == "dolar") {
-        document.querySelector(".input-currency").placeholder = "USD1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -98,7 +92,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "dolar" && seletorConvertido.value == "real") {
-        document.querySelector(".input-currency").placeholder = "USD1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -110,7 +103,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "dolar" && seletorConvertido.value == "euro") {
-        document.querySelector(".input-currency").placeholder = "USD1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -122,7 +114,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "dolar" && seletorConvertido.value == "libra") {
-        document.querySelector(".input-currency").placeholder = "USD1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -134,7 +125,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "dolar" && seletorConvertido.value == "bitcoin") {
-        document.querySelector(".input-currency").placeholder = "USD1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -147,7 +137,6 @@ function convert() {
 
     /*euro*/
     if (seletorConverter.value == "euro" && seletorConvertido.value == "euro") {
-        document.querySelector(".input-currency").placeholder = "€1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("pt-pt", {
             style: "currency",
             currency: "EUR"
@@ -159,7 +148,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "euro" && seletorConvertido.value == "real") {
-        document.querySelector(".input-currency").placeholder = "€1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("pt-pt", {
             style: "currency",
             currency: "EUR"
@@ -171,7 +159,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "euro" && seletorConvertido.value == "dolar") {
-        document.querySelector(".input-currency").placeholder = "€1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("pt-pt", {
             style: "currency",
             currency: "EUR"
@@ -183,7 +170,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "euro" && seletorConvertido.value == "libra") {
-        document.querySelector(".input-currency").placeholder = "€1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("pt-pt", {
             style: "currency",
             currency: "EUR"
@@ -195,7 +181,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "euro" && seletorConvertido.value == "bitcoin") {
-        document.querySelector(".input-currency").placeholder = "€1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("pt-pt", {
             style: "currency",
             currency: "EUR"
@@ -208,7 +193,6 @@ function convert() {
 
     /*libra*/
     if (seletorConverter.value == "libra" && seletorConvertido.value == "libra") {
-        document.querySelector(".input-currency").placeholder = "£1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "GBP"
@@ -220,7 +204,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "libra" && seletorConvertido.value == "real") {
-        document.querySelector(".input-currency").placeholder = "£1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "GBP"
@@ -232,7 +215,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "libra" && seletorConvertido.value == "dolar") {
-        document.querySelector(".input-currency").placeholder = "£1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "GBP"
@@ -244,7 +226,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "libra" && seletorConvertido.value == "euro") {
-        document.querySelector(".input-currency").placeholder = "£1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "GBP"
@@ -256,7 +237,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "libra" && seletorConvertido.value == "bitcoin") {
-        document.querySelector(".input-currency").placeholder = "£1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-EN", {
             style: "currency",
             currency: "GBP"
@@ -269,7 +249,6 @@ function convert() {
 
     /*bitcoin*/
     if (seletorConverter.value == "bitcoin" && seletorConvertido.value == "bitcoin") {
-        document.querySelector(".input-currency").placeholder = "₿1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC"
@@ -281,7 +260,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "bitcoin" && seletorConvertido.value == "real") {
-        document.querySelector(".input-currency").placeholder = "₿1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC"
@@ -293,7 +271,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "bitcoin" && seletorConvertido.value == "dolar") {
-        document.querySelector(".input-currency").placeholder = "₿1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC"
@@ -305,7 +282,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "bitcoin" && seletorConvertido.value == "euro") {
-        document.querySelector(".input-currency").placeholder = "₿1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC"
@@ -317,7 +293,6 @@ function convert() {
     }
 
     if (seletorConverter.value == "bitcoin" && seletorConvertido.value == "libra") {
-        document.querySelector(".input-currency").placeholder = "₿1.00"
         valorConversao.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC"
