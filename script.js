@@ -306,7 +306,6 @@ function convert() {
 
 function converterInfos() {
     if (seletorConverter.value == "real") {
-        document.querySelector(".input-currency").placeholder = "R$1,00"
         moedaConverter.innerHTML = "Real brasileiro"
         bandeiraConverter.src = "./assets/real.png"
     }
@@ -317,7 +316,6 @@ function converterInfos() {
     }
 
     if (seletorConverter.value == "dolar") {
-        document.querySelector(".input-currency").placeholder = "$1.00"
         moedaConverter.innerHTML = "Dólar americano"
         bandeiraConverter.src = "./assets/dolar.png"
     }
@@ -328,7 +326,6 @@ function converterInfos() {
     }
 
     if (seletorConverter.value == "libra") {
-        document.querySelector(".input-currency").placeholder = "£1.00"
         moedaConverter.innerHTML = "Libra esterlina"
         bandeiraConverter.src = "./assets/libra.png"
     }
@@ -339,7 +336,6 @@ function converterInfos() {
     }
 
     if (seletorConverter.value == "euro") {
-        document.querySelector(".input-currency").placeholder = "€1.00"
         moedaConverter.innerHTML = "Euro"
         bandeiraConverter.src = "./assets/euro.png"
     }
@@ -350,7 +346,6 @@ function converterInfos() {
     }
 
     if (seletorConverter.value == "bitcoin") {
-        document.querySelector(".input-currency").placeholder = "₿1.00"
         moedaConverter.innerHTML = "Bitcoin"
         bandeiraConverter.src = "./assets/bitcoin.png"
     }
